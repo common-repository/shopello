@@ -1,0 +1,12 @@
+[[https://travis-ci.org/Shopello/Shopello-PHP][https://api.travis-ci.org/Shopello/Shopello-PHP.svg?branch=master]]
+
+* Install with composer:
+composer.json
+#+NAME: composer.json
+#+BEGIN_SRC json
+{
+    "require": {
+        "shopello/api": "@stable"
+    }
+}
+#+END_SRC

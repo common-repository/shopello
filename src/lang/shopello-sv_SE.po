@@ -1,0 +1,515 @@
+# Copyright (C) 2015 Shopello API
+# This file is distributed under the same license as the Shopello API package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopello API 1.9.8\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/shopello\n"
+"POT-Creation-Date: 2015-07-03 13:45+0100\n"
+"PO-Revision-Date: 2015-07-03 13:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/classes/SWP/AdminPages.php:33 src/classes/SWP/AdminPages.php:34
+#: src/classes/SWP/AdminPages.php:44
+msgid "Shopello"
+msgstr "Shopello"
+
+#: src/classes/SWP/AdminPages.php:45 src/templates/admin/product-lists.php:16
+msgid "Product Listings"
+msgstr "Produktlistningar"
+
+#: src/classes/SWP/AdminPages.php:53 src/classes/SWP/AdminPages.php:54
+#: src/twig/admin/.account.php:3
+msgid "API-Settings"
+msgstr "API-Inställningar"
+
+#: src/classes/SWP/AdminPages.php:62 src/classes/SWP/AdminPages.php:63
+#: src/twig/admin/.tests.php:3
+msgid "System Test"
+msgstr "Systemtester"
+
+#: src/classes/SWP/AdminPages.php:91
+msgid "Working... This can take several minutes..."
+msgstr "Arbetar... Detta kan ta flera minuter..."
+
+#: src/classes/SWP/AdminPages.php:92
+msgid ""
+"You have reached max number of listings (%d st). Remove one to be able to "
+"save this new one."
+msgstr ""
+"Du har uppnått max antal listningar (%d st). Ta bort en för att kunna spara "
+"den nya."
+
+#: src/classes/SWP/AdminPages.php:96
+msgid "Error while saving. Reload the page and try again."
+msgstr "Något gick fel vid sparandet. Ladda om sidan och försök igen."
+
+#: src/classes/SWP/AdminPages.php:97
+msgid "Choose a name for your listing:"
+msgstr "Vilket namn vill du spara din listning med?"
+
+#: src/classes/SWP/AdminPages.php:142 src/classes/SWP/AdminPages.php:157
+#: src/classes/SWP/AdminPages.php:194
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har inte tillräckliga rättigheter för att besöka denna sida."
+
+#: src/classes/SWP/Ajax.php:48
+msgid "The categories has been updated!"
+msgstr "Kategorierna har uppdaterats!"
+
+#: src/classes/SWP/Ajax.php:50
+msgid "Could not update, try again later or contact the support."
+msgstr "Kunde inte uppdatera, försök igen senare eller kontakta supporten."
+
+#: src/classes/SWP/Ajax.php:53
+msgid "You have to configure the API-Settings first."
+msgstr "Du måste ställa in API-inställningarna först."
+
+#: src/classes/SWP/Ajax.php:160
+msgid "Api Key or Api Endpoint are missing."
+msgstr "API-Nyckel eller API-Adress saknas."
+
+#: src/classes/SWP/Ajax.php:219
+msgid "New item stored"
+msgstr "Nytt objekt sparat"
+
+#: src/classes/SWP/Ajax.php:271
+msgid "Item %d removed"
+msgstr "Listning %d har tagits bort"
+
+#: src/classes/SWP/Listing.php:50
+msgid "Query: %s"
+msgstr "Sökning: %s"
+
+#: src/classes/SWP/Listing.php:52
+msgid "No querystring"
+msgstr "Saknar söksträng"
+
+#: src/classes/SWP/Listing.php:56
+msgid "Categories: [%s]"
+msgstr "Kategorier: [%s]"
+
+#: src/classes/SWP/Listing.php:58
+msgid "No categories selected"
+msgstr "Inga kategorier valda"
+
+#: src/classes/SWP/Listing.php:62
+msgid "Page size: %s"
+msgstr "Sidstorlek: %s"
+
+#: src/classes/SWP_MetaBox.php:35
+msgid "Shopello listning"
+msgstr "Shopello Listning"
+
+#: src/classes/shopello_search_widget.php:13
+msgid "Simplest way to start working from any page"
+msgstr "Simplest way to start working from any page"
+
+#: src/classes/shopello_search_widget.php:14
+msgid "Shopello Productfilter"
+msgstr "Shopello Produktfilter"
+
+#: src/classes/shopello_search_widget.php:15
+#: src/classes/shopello_search_widget.php:26
+msgid "Label"
+msgstr "Hej Label"
+
+#: src/classes/shopello_search_widget.php:18
+msgid "Shopello Search"
+msgstr "Shopello Sök"
+
+#: src/classes/shopello_search_widget.php:27
+msgid "Text"
+msgstr "Beskrivning"
+
+#: src/classes/shopello_search_widget.php:28
+msgid "CSS klass"
+msgstr "CSS klass"
+
+#: src/helpers.php:133 src/rendering_helpers.php:37
+msgid "product"
+msgstr "produkt"
+
+#: src/helpers.php:133 src/helpers.php:134 src/rendering_helpers.php:37
+#: src/rendering_helpers.php:38
+msgid "products"
+msgstr "produkter"
+
+#: src/rendering_helpers.php:25
+msgid "none"
+msgstr "inga"
+
+#: src/rendering_helpers.php:118 src/templates/result/filters.php:98
+msgid "Price"
+msgstr "Pris"
+
+#: src/rendering_helpers.php:119 src/templates/result/filters.php:99
+msgid "Name"
+msgstr "Namn"
+
+#: src/rendering_helpers.php:120 src/templates/result/filters.php:100
+msgid "Clicks"
+msgstr "Click"
+
+#: src/rendering_helpers.php:121 src/templates/result/filters.php:101
+msgid "Popularity"
+msgstr "Popularitet"
+
+#: src/rendering_helpers.php:125
+msgid "Ascending"
+msgstr "Stigande"
+
+#: src/rendering_helpers.php:126
+msgid "Descending"
+msgstr "Fallande"
+
+#: src/rendering_helpers.php:130 src/templates/result/filters.php:127
+msgid "white"
+msgstr "vit"
+
+#: src/rendering_helpers.php:131 src/templates/result/filters.php:128
+msgid "gray"
+msgstr "grå"
+
+#: src/rendering_helpers.php:132 src/templates/result/filters.php:129
+msgid "black"
+msgstr "svart"
+
+#: src/rendering_helpers.php:133 src/templates/result/filters.php:130
+msgid "blue"
+msgstr "blå"
+
+#: src/rendering_helpers.php:134 src/templates/result/filters.php:131
+msgid "green"
+msgstr "grön"
+
+#: src/rendering_helpers.php:135 src/templates/result/filters.php:132
+msgid "yellow"
+msgstr "gul"
+
+#: src/rendering_helpers.php:136 src/templates/result/filters.php:133
+msgid "orange"
+msgstr "orange"
+
+#: src/rendering_helpers.php:137 src/templates/result/filters.php:134
+msgid "red"
+msgstr "röd"
+
+#: src/rendering_helpers.php:138 src/templates/result/filters.php:135
+msgid "pink"
+msgstr "rosa"
+
+#: src/rendering_helpers.php:139 src/templates/result/filters.php:136
+msgid "purple"
+msgstr "lila"
+
+#: src/shortcodes/shopello_products.php:11
+msgid ""
+"The product listing you are trying to use does not exist. Please check your "
+"API-Settings."
+msgstr ""
+"Listningen du försöker använda finns inte, var god se över dina "
+"inställninngar."
+
+#: src/templates/admin/product-lists.php:6
+msgid "Settings is incorrect"
+msgstr "Inställningarna verkar vara felaktiga!"
+
+#: src/templates/admin/product-lists.php:7
+msgid ""
+"One or more required settings is missing or incorrect to be able to use the "
+"API."
+msgstr ""
+"En del obligatoriska uppgifter saknas eller är felaktiga för att kunna "
+"använda API:et."
+
+#: src/templates/admin/product-lists.php:8
+msgid "Please visit <a href=\"%s\">API-Settings</a> and check your settings."
+msgstr ""
+"Vänligen gå till <a href=\"%s\">Inställningar</a> och kontrollera "
+"uppgifterna där."
+
+#: src/templates/admin/product-lists.php:39
+msgid ""
+"Saved Listings <em> - To Add / Save a listing you have to use the tool <a "
+"href=\"#new\">New Listing</a> a bit further down on this page. When done, "
+"press the button <strong>Save Listing</strong> to save to this list.</em>"
+msgstr ""
+"Sparade urval <em> - För att lägga till / spara ett urval så använder du "
+"verktyget <a href=\"#new\">Nytt urval</a> längre ned på sidan. När du är "
+"klar, tryck på <strong>Spara urval</strong> så sparas den i denna lista.</em>"
+
+#: src/templates/admin/product-lists.php:60
+msgid "New Listing"
+msgstr "Nytt urval"
+
+#: src/templates/admin/product-lists.php:70
+msgid "Preview of your listing"
+msgstr "Förhandsgranskning av ditt urval"
+
+#: src/templates/result/filters.php:48 src/templates/result/filters.php:49
+#: src/templates/result/filters.php:164 src/twig/result/.filters.php:5
+msgid "Keyword"
+msgstr "Sökord"
+
+#: src/templates/result/filters.php:50
+msgid "Use your own keywords to limit the results."
+msgstr "Använd egna sökord för att begränsa produkturvalet."
+
+#: src/templates/result/filters.php:56 src/templates/result/filters.php:167
+#: src/twig/admin/.account.php:78 src/twig/result/.filters.php:12
+msgid "Categories"
+msgstr "Kategorier"
+
+#: src/templates/result/filters.php:58 src/twig/result/.filters.php:15
+msgid ""
+"If a selected category has sub-categories, the subcategories will be "
+"included even when not selected."
+msgstr ""
+"Om en vald kategori har underkategorier så tas de automatiskt med i valet, "
+"trots att de inte är ikryssade."
+
+#: src/templates/result/filters.php:75 src/templates/result/filters.php:173
+msgid "Products per page"
+msgstr "Produkter per sida"
+
+#: src/templates/result/filters.php:86 src/templates/result/filters.php:176
+msgid "Max Price"
+msgstr "Pristak"
+
+#: src/templates/result/filters.php:86
+msgid " kr"
+msgstr " kr"
+
+#: src/templates/result/filters.php:88
+msgid "Remove max price"
+msgstr "Ta bort Pristak"
+
+#: src/templates/result/filters.php:94 src/templates/result/filters.php:179
+msgid "Sorting"
+msgstr "Sortering"
+
+#: src/templates/result/filters.php:115
+msgid "Rising"
+msgstr "Stigande"
+
+#: src/templates/result/filters.php:116
+msgid "Falling"
+msgstr "Fallande"
+
+#: src/templates/result/filters.php:123 src/templates/result/filters.php:182
+msgid "Color Filter"
+msgstr "Färgfilter"
+
+#: src/templates/result/filters.php:152
+msgid ""
+"You can only choose one color. Click on the chosen color to remove the "
+"colorfilter."
+msgstr ""
+"Du kan bara välja en färg. För att bort färgfilter, klicka på vald färg igen."
+
+#: src/templates/result/filters.php:160
+msgid "Available filters for listing"
+msgstr "Tillgängliga filter för listning"
+
+#: src/templates/result/filters.php:188
+msgid "Save Listing"
+msgstr "Spara Produktlistning"
+
+#: src/templates/result/no_hits.php:1
+msgid "We did not find any results for this search."
+msgstr "Vi hittade inga resultat för din sökning"
+
+#: src/twig/admin/.account.php:13
+msgid "API-Key"
+msgstr "API-Nyckel"
+
+#: src/twig/admin/.account.php:21
+msgid "API-Endpoint"
+msgstr "API-Adress"
+
+#: src/twig/admin/.account.php:25
+msgid "Select API Endpoint"
+msgstr "Välj API-Adress"
+
+#: src/twig/admin/.account.php:34
+msgid "Test API-Settings"
+msgstr "Testa API-Inställningarna"
+
+#: src/twig/admin/.account.php:45
+msgid "Settings are correct."
+msgstr "Inställningarna är korrekta."
+
+#: src/twig/admin/.account.php:46
+msgid ""
+"Please check your settings and check if ping works on the System Test page."
+msgstr ""
+"Vänligen kontrollera dina inställningar och kontrollera om ping fungerar på "
+"Systemtest-sidan."
+
+#: src/twig/admin/.account.php:52
+msgid "General Settings"
+msgstr "Generella inställningar"
+
+#: src/twig/admin/.account.php:57
+msgid "Total amount of hits-text"
+msgstr "Antal träffar-text"
+
+#: src/twig/admin/.account.php:61
+msgid "Found 247 products"
+msgstr "Hittade 247 produkter"
+
+#: src/twig/admin/.account.php:62
+msgid "Written: \"Found %amount% of products for phrase %phrase%\"."
+msgstr "Skrivs: \"Hittade %amount% produkter för sökordet %phrase%\"."
+
+#: src/twig/admin/.account.php:67
+msgid "Keyword-text"
+msgstr "Sökords-text"
+
+#: src/twig/admin/.account.php:71
+msgid "Completes previous \"Found 247 products\" with a keyword"
+msgstr "Kompletterar föregående \"Hittade 247 produkter\" med ett sökord."
+
+#: src/twig/admin/.account.php:72
+msgid "For example: \"for phrase %phrase%\"."
+msgstr "Till exempel: \"för sökordet %phrase%\"."
+
+#: src/twig/admin/.account.php:73
+msgid "Result: \"Found 247 products for phrase Shoes\""
+msgstr "Resultat: \"Hittade 247 produkter för sökordet Skor\""
+
+#: src/twig/admin/.account.php:83
+msgid ""
+"Categories is automaticly updated daily. Use this button to manually update "
+"everything now."
+msgstr ""
+"Kategorierna uppdateras dagligen. Använd knappen för att manuellt uppdatera "
+"alla kategorier."
+
+#: src/twig/admin/.account.php:84
+msgid ""
+"If it is the first time you are using the plugin, you probably need to click "
+"this."
+msgstr ""
+"Första gången du använder pluginet behöver du troligen forcera "
+"synkronisering för att ladda ned alla kategorier."
+
+#: src/twig/admin/.metabox.php:3
+msgid "Choose Productlist"
+msgstr "Välj produktlistning"
+
+#: src/twig/admin/.metabox.php:7
+msgid "No Listing"
+msgstr "Ingen listning"
+
+#: src/twig/admin/.tests.php:6
+msgid ""
+"This page will perform some system-tests to detect problems in your "
+"Wordpress setup while using the\n"
+"               Shopello API. More tests will be added over time when we come "
+"up with things to test for, so please\n"
+"               report issues to partner@shopello.se."
+msgstr ""
+"Denna sida kommer att utföra några systemtester för att hitta problem med "
+"din Wordpress installation medans du använder Shopello API.  Fler tester "
+"kommer att läggas till med tiden när vi hittar saker som är lämpliga att "
+"testa. Var god rapportera problem till partner@shopello.se."
+
+#: src/twig/admin/.tests.php:11
+msgid "Performing checks"
+msgstr "Utför tester"
+
+#: src/twig/admin/.tests.php:14
+msgid "CURL Extension installed"
+msgstr "CURL tilläget installerat"
+
+#: src/twig/admin/.tests.php:22
+msgid "Able to connect to Shopello with CURL"
+msgstr "Lyckas ansluta till Shopello med CURL"
+
+#: src/twig/result/.product_grid.php:29
+msgid "Buy"
+msgstr "Köp"
+
+#: src/twig/result/.product_grid.php:35
+msgid "No products found"
+msgstr "Inga produkter hittade"
+
+#. Plugin Name of the plugin/theme
+msgid "Shopello API"
+msgstr "Shopello API"
+
+#. Plugin URI of the plugin/theme
+msgid "http://shopello.se/api/wordpress"
+msgstr "http://shopello.se/api/wordpress"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin was created to allow wordpress blogs and websites to in a simple "
+"manner include listings of products from Shopello.se."
+msgstr ""
+"This plugin was created to allow wordpress blogs and websites to in a simple "
+"manner include listings of products from Shopello.se."
+
+#. Author of the plugin/theme
+msgid "Shopello AB"
+msgstr "Shopello AB"
+
+#~ msgid "Test now"
+#~ msgstr "Testa nu"
+
+#~ msgid "Found %amount% products"
+#~ msgstr "Hittade %amount% produkter"
+
+#~ msgid "for phrase %phrase%."
+#~ msgstr "för sökordet %phrase%."
+
+#~ msgid "Synchronize categories"
+#~ msgstr "Synkronisera kategorier"
+
+#~ msgid ""
+#~ "No API-Key has been entered, please enter your API-Key and save the "
+#~ "settings. If you do not have an API-Key so please visit https://www."
+#~ "shopelloapi.com/ to get one."
+#~ msgstr ""
+#~ "Ingen API-nyckel har angivits. Var god ange din API-nyckel och spara "
+#~ "inställningarna. Har du ingen API-nyckel så kan du besöka https://www."
+#~ "shopelloapi.com/ för att erhålla en."
+
+#~ msgid ""
+#~ "No API-Endpoint has been entered, please enter your API-Endpoint and save "
+#~ "the settings. If you do not have an API-Endpoint so please visit https://"
+#~ "www.shopelloapi.com/ to get one."
+#~ msgstr ""
+#~ "Ingen API-Adress har angivits. Var god ange din API-endpoint och spara "
+#~ "inställningarna. Har du ingen API-endpoint så kan du besöka https://www."
+#~ "shopelloapi.com/ för att erhålla en."
+
+#~ msgid "Go to product"
+#~ msgstr "Gå till produkt"
+
+#~ msgid ""
+#~ "This page will perform some system-tests to detect problems in your "
+#~ "Wordpress setup while using the Shopello API.\n"
+#~ "        More tests will be added over time when we come up with things to "
+#~ "test for, so please report issues to\n"
+#~ "        partner@shopello.se."
+#~ msgstr ""
+#~ "Denna sida kommer att utföra några systemtester för att hitta problem med "
+#~ "din Wordpress installation medans du använder Shopello API.\n"
+#~ "        Fler tester kommer att läggas till med tiden när vi hittar saker "
+#~ "som är lämpliga att testa. Var god rapportera problem till\n"
+#~ "        partner@shopello.se."
+
+#~ msgid ""
+#~ "You cannot run_query %1$s is set or you pass some %2$s!   // Love, SWP"
+#~ msgstr ""
+#~ "Du kan inte köra run_query %1$s är satt eller så måste du skicka %2$s! // "
+#~ "Mvh, SWP"

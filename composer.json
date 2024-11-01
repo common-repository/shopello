@@ -1,0 +1,15 @@
+{
+    "require": {
+        "shopello/api": "@stable",
+        "twig/twig": "@stable"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "@stable",
+        "leafo/scssphp": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/classes"
+        }
+    }
+}
